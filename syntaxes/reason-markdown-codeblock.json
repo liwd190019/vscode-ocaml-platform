@@ -4,7 +4,7 @@
   "patterns": [{ "include": "#reason-code-block" }],
   "repository": {
     "reason-code-block": {
-      "begin": "(re|reason|reasonml)(\\s+[^`~]*)?$",
+      "begin": "(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(re|reason|reasonml)((\\s+|:|,|\\{|\\?)[^`]*)?$)",
       "end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
       "patterns": [
         {

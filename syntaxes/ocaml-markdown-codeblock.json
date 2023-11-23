@@ -4,7 +4,7 @@
   "patterns": [{ "include": "#ocaml-code-block" }],
   "repository": {
     "ocaml-code-block": {
-      "begin": "(ml|ocaml)(\\s+[^`~]*)?$",
+      "begin": "(^|\\G)(\\s*)(`{3,}|~{3,})\\s*(?i:(ml|ocaml)((\\s+|:|,|\\{|\\?)[^`]*)?$)",
       "end": "(^|\\G)(?=\\s*[`~]{3,}\\s*$)",
       "patterns": [
         {

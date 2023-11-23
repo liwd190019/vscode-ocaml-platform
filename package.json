@@ -1,6 +1,6 @@
 {
-  "name": "ocaml-platform",
-  "displayName": "OCaml Platform",
+  "name": "ocaml-platform-test-wdli",
+  "displayName": "OCaml Platform-test-wdli",
   "version": "1.14.0",
   "private": true,
   "description": "Official OCaml language extension for VSCode",
